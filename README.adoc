@@ -2,4 +2,13 @@
 
 Playing with module-info
 
+== Structure
+Modules:
+
+* the my-lib module - the Java library without module-info definition.
+* the scala-lib module - the Scala library without module-info definition.
+* the app module - the main application. Uses module-info definition.
+* the buildSrc module - the Gradle build script definitions and definition of special plugin, which allows to use a module without module-info definition.
+
+== References
 https://docs.gradle.org/current/samples/sample_java_modules_with_transform.html[Building Java Modules with Legacy Libraries Sample]
