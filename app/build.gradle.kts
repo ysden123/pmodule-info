@@ -18,5 +18,5 @@ application {
 }
 
 extraJavaModuleInfo {
-    automaticModule("my-lib.jar", "com.stulsoft.pmodule.info.lib")
+    automaticModule("my-lib-${version}.jar", "com.stulsoft.pmodule.info.lib")
 }

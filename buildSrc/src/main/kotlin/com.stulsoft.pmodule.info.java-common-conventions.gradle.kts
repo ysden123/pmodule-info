@@ -12,6 +12,8 @@ repositories {
     mavenCentral()
 }
 
+version = "1.0.0"
+
 dependencies {
     constraints {
         // Define dependency versions as constraints
