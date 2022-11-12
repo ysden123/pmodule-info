@@ -10,6 +10,7 @@ plugins {
 dependencies {
     implementation("org.apache.commons:commons-text")
     implementation(project(":my-lib"))
+    implementation(project(":scala-lib"))
 }
 
 application {
@@ -19,4 +20,5 @@ application {
 
 extraJavaModuleInfo {
     automaticModule("my-lib-${version}.jar", "com.stulsoft.pmodule.info.lib")
+    automaticModule("scala-lib-${version}.jar", "com.stulsoft.pmodule.info.slib")
 }
